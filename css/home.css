@@ -1,0 +1,60 @@
+.container {
+  width: 1170px;
+  margin: auto; }
+
+body {
+  background-image: url(../background1.jpg);
+  font-size: 14px;
+  color: #000000; }
+
+.img {
+  margin-top: 20px;
+  text-align: center; }
+
+h1 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center; }
+
+p {
+  text-align: center;
+  font-size: 14px; }
+
+.btn {
+  margin-top: 20px; }
+  .btn .div_btn {
+    position: relative; }
+    .btn .div_btn img {
+      position: absolute;
+      left: 20px;
+      top: 7px; }
+    .btn .div_btn a {
+      display: block;
+      width: 100%;
+      text-align: center;
+      border-radius: 30px;
+      border: 1px solid #000000;
+      margin-bottom: 15px;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 15px 0px;
+      color: #000000; }
+      .btn .div_btn a:hover {
+        color: #ffffff;
+        border: unset;
+        background: #F58633;
+        border: 1px solid #F58633; }
+
+@media (max-width: 1170px) {
+  .container {
+    width: auto;
+    margin-right: 10px;
+    margin-left: 10px; } }
+@media (max-width: 767px) {
+  .container {
+    width: auto;
+    margin-right: 10px;
+    margin-left: 10px; } }
+
+/*# sourceMappingURL=home.css.map */
